@@ -1,54 +1,52 @@
-# Astro Starter Kit: Basics
+# Proyecto de Astro
 
-```sh
-npm create astro@latest -- --template basics
-```
+Este proyecto utiliza Astro, un moderno generador de sitios estáticos, para construir sitios web rápidos y optimizados.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## Requisitos Previos
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Asegúrate de tener instalado Node.js en tu sistema. También necesitarás tener npm (administrador de paquetes de Node.js) instalado.
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+## Requisitos
 
-## 🚀 Project Structure
+- Node.js (versión 18 o superior)
+- npm (versión 6 o superior)
 
-Inside of your Astro project, you'll see the following folders and files:
+## Pasos para Clonar y Ejecutar el Proyecto
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+### Paso 1: Clonar el Repositorio
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+Abre tu terminal y ejecuta el siguiente comando para clonar el repositorio en tu máquina local:
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+bash git clone <URL_del_repositorio>
 
-Any static assets, like images, can be placed in the `public/` directory.
+### Paso 2: Ubicarte en la Terminal
+
+Navega al directorio del proyecto clonado:
+
+bash cd ./nombre_del_clon
+
+### Paso 3: Instalar Dependencias
+
+Instala las dependencias necesarias para el proyecto:
+
+bash npm install
+
+### Paso 4: Ejecutar el Proyecto Localmente
+
+Inicia el servidor de desarrollo local:
+bash npm run dev
+
+Una vez ejecutado, podrás visualizar el proyecto de forma local.
 
 ## 🧞 Commands
 
-All commands are run from the root of the project, from a terminal:
+Todos los comandos se ejecutan desde la raíz del proyecto, desde una terminal:
 
-| Command                   | Action                                           |
+| Comando                   | Acción                                           |
 | :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+| `npm install`             | Instala dependencias                            |
+| `npm run dev`             | Inicia el servidor de desarrollo en `localhost:4321` |
+| `npm run build`           | Construye tu sitio para producción en `./dist/` |
+| `npm run preview`         | Previsualiza tu build localmente, antes de desplegar |
+| `npm run astro ...`       | Ejecuta comandos CLI como `astro add`, `astro check` |
+| `npm run astro -- --help` | Obtiene ayuda usando la CLI de Astro     
