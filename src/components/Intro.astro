@@ -1,0 +1,54 @@
+---
+import SmartSearchContainer from "./SmartSearchContainer.astro";
+---
+
+<div class="mx-auto my-24 text-left bg-color-black text-text-xl max-w-7xl text-pretty-white">
+    <div class="w-full flex flex-col items-start justify-start gap-8 max-w-1024">
+      <b class="self-stretch relative color-pretty-white leading-120 text-f">Nuestra Misión</b>
+      <b class="self-stretch relative text-6xl tracking-tighter leading-120 text-whitesmoke-200">
+        Facilitar el encuentro entre profesionales y usuarios para trabajos y asesorías de calidad.
+      </b>
+      <style>
+        .text-whitesmoke-200 {
+          color: #000000;
+          border: rgb(0, 38, 255);
+          border-radius: 5px;
+          background-color: #ffffff00;
+        }
+        .text-6xl {
+          font-size: 58px;
+        }
+        .text-f {
+          font-size: 39px;
+          color: #00ADB5;
+        
+        }
+      </style>
+    </div>
+  </div>
+  <div class=" mx-auto my-24 text-left bg-color-black text-text-xl max-w-7xl text-pretty ">
+    <div class="flex justify-center">
+      <div class="flex flex-col mx-auto  ">
+        <img class=" mx-auto self-stretch relative overflow-hidden h-[500px] md:h-[321px] shrink-0 object-cover my-24  rounded-3xl" src="\pf1.jpg" alt="Image description">
+      </div> 
+      <div class=" mx-auto my-24 text-center text-xl max-w-6xl text-pretty-white  tracking-wide">
+        <div class=" self-stretch relative tracking-[-0.02em] leading-[104%] md:text-6xl font-semibold  mb-50">Cómo funciona
+            <div class=" self-stretch relative tracking-[-0.02em] leading-[104%] md:text-3xl font-semibold  mb-50">Sigue estos pasos</div>
+            <button class="mx-auto my-24 group relative h-12 w-48 overflow-hidden rounded-2xl bg-cyan-600 text-lg font-bold text-white">
+                Ver profesionales
+                <div class="absolute inset-0 h-full w-full scale-0 rounded-2xl transition-all duration-300 group-hover:scale-100 group-hover:bg-white/30"></div>
+              </button>
+
+            <style>
+                .text-pretty-white {
+            color: #ffffff;
+            border: black;
+            border-radius: 5px}
+            .text-pretty{
+                background-color: #747474;
+            }                  
+                              </style>
+        </div>
+
+    </div>
+</div>

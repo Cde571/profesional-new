@@ -1,0 +1,84 @@
+---
+import BentoItem from './BentoItem.astro';
+---
+<section
+    class=`
+        w-full max-w-[1400px]
+        grid grid-cols-10 auto-rows-[25rem] gap-4
+        mx-auto px-20`
+    >
+    <BentoItem 
+        class="col-span-1 md:col-span-4"  
+        title="Diversidad de servicios"
+        subtitle="Amplia la variedad de profesionales en un lugar"
+        
+        >
+        <div
+        slot="image"
+        class=" absolute top-0 left-0 w-full 
+            h-full group-hover:scale-110 transit-scale duration-1000
+            ease-in-out opacity-90 bg-blend-luminosity bg-center bg-cover
+            bg-no-repeat  -z-10"
+            style="background-image: url('/public/flex2.jpeg');"
+            > </div>              
+            </button>
+        
+    </button>
+      
+        <p slot="content"
+        class="text-pretty"></p>
+        <p slot="content" 
+        class="text-pretty"
+      >
+
+        
+        </p>
+    </BentoItem>
+    <BentoItem 
+        class="col-span-10 md:col-span-6" 
+        title="Pagos flexibles" 
+        subtitle="Multiples opciones de pago para los usuarios"
+        
+
+        ><div
+        slot="image"
+        class=" absolute top-0 left-0 w-full 
+            h-full group-hover:scale-110 transit-scale duration-1000
+            ease-in-out opacity-90 bg-blend-luminosity bg-center bg-cover
+            bg-no-repeat  -z-10"
+        style="background-image: url('/flex1.jpeg');"
+        
+        />
+        
+        
+    </BentoItem>
+    <BentoItem 
+        class="col-span-10 md:col-span-6" 
+        title="Privacidad garantizada"/ 
+        subtitle="Tus datos estan seguros en todo momento"
+        ><div
+        slot="image"
+        class=" absolute top-0 left-0 w-full 
+            h-full group-hover:scale-110 transit-scale duration-1000
+            ease-in-out opacity-90 bg-blend-luminosity bg-center bg-cover
+            bg-no-repeat  -z-10"
+      style="background-image: url('/flex3.jpg');">
+    </div>
+    </BentoItem> 
+        <BentoItem 
+        class="col-span-10 md:col-span-4" 
+        title="Actualizaciones Constantes"/ subtitle='Mejoras continuas para una experiencia optima'
+        ><div
+        slot="image"
+        class=" absolute top-0 left-0 w-full 
+            h-full group-hover:scale-110 transit-scale duration-1000
+            ease-in-out opacity-90 bg-blend-luminosity bg-center bg-cover
+            bg-no-repeat -z-10"
+      style="background-image: url('/flex01.jpeg');">
+    </div>
+        
+    </BentoItem>
+
+
+</section>
+    
